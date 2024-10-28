@@ -1,0 +1,22 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  background-color: black; /* Black background for the entire project */
+  color: white; /* Optional: set text color to white for better contrast */
+}
+
+/* Ensure the main content takes full height and uses the black background */
+main.content-wrapper {
+  background-color: black; /* Main content section */
+  min-height: 100vh; /* Full height of viewport */
+  padding: 20px; /* Optional padding */
+}
+
+

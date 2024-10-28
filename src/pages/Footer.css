@@ -1,0 +1,37 @@
+.spotify-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+      margin-top: 751px;
+    background: linear-gradient(50deg, #c21ec8, #5397d3);
+
+    color: white;
+  
+    /* Makes the header fixed at the top */
+    top: 0;
+    /* Positions the header at the top of the page */
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    /* Ensures the header stays on top of other content */
+}
+.login {
+    background-color:white;
+    color: black;
+    border-radius: 50px;
+    /* Rounded pill shape */
+    padding: 15px 55px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    margin-right: 40px;
+}
+
+     
+        @media (max-width: 768px) {
+            .spotify-footer {
+               display: none;
+            }
+        }
+        
